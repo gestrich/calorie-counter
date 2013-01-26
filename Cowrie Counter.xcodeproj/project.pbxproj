@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA9B79E416AA74CA0064466F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA9B79E316AA74CA0064466F /* UIKit.framework */; };
+		CA9B79E616AA74CA0064466F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA9B79E516AA74CA0064466F /* Foundation.framework */; };
+		CA9B79E816AA74CA0064466F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA9B79E716AA74CA0064466F /* CoreGraphics.framework */; };
+		CA9B79EE16AA74CA0064466F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA9B79EC16AA74CA0064466F /* InfoPlist.strings */; };
+		CA9B79F016AA74CA0064466F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA9B79EF16AA74CA0064466F /* main.m */; };
+		CA9B79F416AA74CA0064466F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA9B79F316AA74CA0064466F /* AppDelegate.m */; };
+		CA9B79F616AA74CA0064466F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CA9B79F516AA74CA0064466F /* Default.png */; };
+		CA9B79F816AA74CA0064466F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA9B79F716AA74CA0064466F /* Default@2x.png */; };
+		CA9B79FA16AA74CA0064466F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA9B79F916AA74CA0064466F /* Default-568h@2x.png */; };
+		CA9B7A0F16AA75170064466F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA9B7A0E16AA75170064466F /* MainStoryboard.storyboard */; };
+		CA9B7A1316AA76E70064466F /* WebsiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA9B7A1216AA75550064466F /* WebsiteViewController.m */; };
+		CA9B7A1B16AA79E20064466F /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CA9B7A1A16AA79E20064466F /* DataManager.m */; };
+		CA9B7A1E16AA7E4D0064466F /* FoodItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CA9B7A1D16AA7E4D0064466F /* FoodItem.m */; };
+		CA9B7A2116AA7EF30064466F /* HTTPDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = CA9B7A2016AA7EF30064466F /* HTTPDataSource.m */; };
+		CA9B7A3416AA802C0064466F /* ProductDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = CA9B7A3316AA7FD40064466F /* ProductDataSource.m */; };
+		CA9B7A3516AA802C0064466F /* MultiLevelTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA9B7A2E16AA7FC40064466F /* MultiLevelTableViewController.m */; };
+		CA9B7A3616AA802C0064466F /* MultLevelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CA9B7A3116AA7FC40064466F /* MultLevelCell.m */; };
+		CAF15F3516AB1F020022E427 /* SplitContainerController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF15F3416AB1F020022E427 /* SplitContainerController.m */; };
+		CAF15F3E16AB70470022E427 /* CalorieModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF15F3D16AB70470022E427 /* CalorieModel.m */; };
+		CAF15F8816ABA59E0022E427 /* SimpleGetNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF15F8116ABA4DE0022E427 /* SimpleGetNetwork.m */; };
+		CAF15F8916ABA59E0022E427 /* PutController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF15F8316ABA4DE0022E427 /* PutController.m */; };
+		CAF15F8A16ABA59E0022E427 /* PostController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF15F8516ABA4DE0022E427 /* PostController.m */; };
+		CAF15F8B16ABA59E0022E427 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF15F8716ABA4DE0022E427 /* NetworkManager.m */; };
+		CAF15F8E16ABACC70022E427 /* NetworkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF15F8D16ABACC70022E427 /* NetworkViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA9B79DF16AA74CA0064466F /* Cowrie Counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cowrie Counter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA9B79E316AA74CA0064466F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CA9B79E516AA74CA0064466F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CA9B79E716AA74CA0064466F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CA9B79EB16AA74CA0064466F /* Cowrie Counter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cowrie Counter-Info.plist"; sourceTree = "<group>"; };
+		CA9B79ED16AA74CA0064466F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CA9B79EF16AA74CA0064466F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA9B79F116AA74CA0064466F /* Cowrie Counter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cowrie Counter-Prefix.pch"; sourceTree = "<group>"; };
+		CA9B79F216AA74CA0064466F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA9B79F316AA74CA0064466F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA9B79F516AA74CA0064466F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CA9B79F716AA74CA0064466F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CA9B79F916AA74CA0064466F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CA9B7A0E16AA75170064466F /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		CA9B7A1116AA75550064466F /* WebsiteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebsiteViewController.h; sourceTree = "<group>"; };
+		CA9B7A1216AA75550064466F /* WebsiteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebsiteViewController.m; sourceTree = "<group>"; };
+		CA9B7A1916AA79E20064466F /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataManager.h; path = "Cowrie Counter/DataManager.h"; sourceTree = "<group>"; };
+		CA9B7A1A16AA79E20064466F /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DataManager.m; path = "Cowrie Counter/DataManager.m"; sourceTree = "<group>"; };
+		CA9B7A1C16AA7E4D0064466F /* FoodItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FoodItem.h; path = Model/FoodItem.h; sourceTree = "<group>"; };
+		CA9B7A1D16AA7E4D0064466F /* FoodItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FoodItem.m; path = Model/FoodItem.m; sourceTree = "<group>"; };
+		CA9B7A1F16AA7EF30064466F /* HTTPDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPDataSource.h; sourceTree = "<group>"; };
+		CA9B7A2016AA7EF30064466F /* HTTPDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPDataSource.m; sourceTree = "<group>"; };
+		CA9B7A2D16AA7FC40064466F /* MultiLevelTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiLevelTableViewController.h; sourceTree = "<group>"; };
+		CA9B7A2E16AA7FC40064466F /* MultiLevelTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiLevelTableViewController.m; sourceTree = "<group>"; };
+		CA9B7A3016AA7FC40064466F /* MultLevelCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultLevelCell.h; sourceTree = "<group>"; };
+		CA9B7A3116AA7FC40064466F /* MultLevelCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultLevelCell.m; sourceTree = "<group>"; };
+		CA9B7A3216AA7FD40064466F /* ProductDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductDataSource.h; sourceTree = "<group>"; };
+		CA9B7A3316AA7FD40064466F /* ProductDataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductDataSource.m; sourceTree = "<group>"; };
+		CAF15F3316AB1F020022E427 /* SplitContainerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplitContainerController.h; sourceTree = "<group>"; };
+		CAF15F3416AB1F020022E427 /* SplitContainerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplitContainerController.m; sourceTree = "<group>"; };
+		CAF15F3C16AB70470022E427 /* CalorieModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalorieModel.h; sourceTree = "<group>"; };
+		CAF15F3D16AB70470022E427 /* CalorieModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalorieModel.m; sourceTree = "<group>"; };
+		CAF15F7F16ABA4DE0022E427 /* Read Me About SimpleURLConnections.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Read Me About SimpleURLConnections.txt"; sourceTree = "<group>"; };
+		CAF15F8016ABA4DE0022E427 /* SimpleGetNetwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleGetNetwork.h; sourceTree = "<group>"; };
+		CAF15F8116ABA4DE0022E427 /* SimpleGetNetwork.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleGetNetwork.m; sourceTree = "<group>"; };
+		CAF15F8216ABA4DE0022E427 /* PutController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PutController.h; sourceTree = "<group>"; };
+		CAF15F8316ABA4DE0022E427 /* PutController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PutController.m; sourceTree = "<group>"; };
+		CAF15F8416ABA4DE0022E427 /* PostController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PostController.h; sourceTree = "<group>"; };
+		CAF15F8516ABA4DE0022E427 /* PostController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PostController.m; sourceTree = "<group>"; };
+		CAF15F8616ABA4DE0022E427 /* NetworkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		CAF15F8716ABA4DE0022E427 /* NetworkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		CAF15F8C16ABACC70022E427 /* NetworkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkViewController.h; sourceTree = "<group>"; };
+		CAF15F8D16ABACC70022E427 /* NetworkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA9B79DC16AA74CA0064466F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA9B79E416AA74CA0064466F /* UIKit.framework in Frameworks */,
+				CA9B79E616AA74CA0064466F /* Foundation.framework in Frameworks */,
+				CA9B79E816AA74CA0064466F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA9B79D416AA74CA0064466F = {
+			isa = PBXGroup;
+			children = (
+				CAF15F3B16AB702C0022E427 /* Model */,
+				CA9B7A1816AA796C0064466F /* Data Management */,
+				CA9B7A1416AA76FC0064466F /* Network */,
+				CA9B7A1016AA754C0064466F /* View Controllers */,
+				CA9B79E916AA74CA0064466F /* Cowrie Counter */,
+				CA9B79E216AA74CA0064466F /* Frameworks */,
+				CA9B79E016AA74CA0064466F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA9B79E016AA74CA0064466F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA9B79DF16AA74CA0064466F /* Cowrie Counter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA9B79E216AA74CA0064466F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA9B79E316AA74CA0064466F /* UIKit.framework */,
+				CA9B79E516AA74CA0064466F /* Foundation.framework */,
+				CA9B79E716AA74CA0064466F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA9B79E916AA74CA0064466F /* Cowrie Counter */ = {
+			isa = PBXGroup;
+			children = (
+				CA9B7A0E16AA75170064466F /* MainStoryboard.storyboard */,
+				CA9B79F216AA74CA0064466F /* AppDelegate.h */,
+				CA9B79F316AA74CA0064466F /* AppDelegate.m */,
+				CA9B79EA16AA74CA0064466F /* Supporting Files */,
+			);
+			path = "Cowrie Counter";
+			sourceTree = "<group>";
+		};
+		CA9B79EA16AA74CA0064466F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA9B79EB16AA74CA0064466F /* Cowrie Counter-Info.plist */,
+				CA9B79EC16AA74CA0064466F /* InfoPlist.strings */,
+				CA9B79EF16AA74CA0064466F /* main.m */,
+				CA9B79F116AA74CA0064466F /* Cowrie Counter-Prefix.pch */,
+				CA9B79F516AA74CA0064466F /* Default.png */,
+				CA9B79F716AA74CA0064466F /* Default@2x.png */,
+				CA9B79F916AA74CA0064466F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CA9B7A1016AA754C0064466F /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CAF15F3316AB1F020022E427 /* SplitContainerController.h */,
+				CAF15F3416AB1F020022E427 /* SplitContainerController.m */,
+				CA9B7A1116AA75550064466F /* WebsiteViewController.h */,
+				CA9B7A1216AA75550064466F /* WebsiteViewController.m */,
+				CA9B7A2D16AA7FC40064466F /* MultiLevelTableViewController.h */,
+				CA9B7A2E16AA7FC40064466F /* MultiLevelTableViewController.m */,
+				CAF15F8C16ABACC70022E427 /* NetworkViewController.h */,
+				CAF15F8D16ABACC70022E427 /* NetworkViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		CA9B7A1416AA76FC0064466F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				CAF15F7F16ABA4DE0022E427 /* Read Me About SimpleURLConnections.txt */,
+				CAF15F8016ABA4DE0022E427 /* SimpleGetNetwork.h */,
+				CAF15F8116ABA4DE0022E427 /* SimpleGetNetwork.m */,
+				CAF15F8216ABA4DE0022E427 /* PutController.h */,
+				CAF15F8316ABA4DE0022E427 /* PutController.m */,
+				CAF15F8416ABA4DE0022E427 /* PostController.h */,
+				CAF15F8516ABA4DE0022E427 /* PostController.m */,
+				CAF15F8616ABA4DE0022E427 /* NetworkManager.h */,
+				CAF15F8716ABA4DE0022E427 /* NetworkManager.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		CA9B7A1816AA796C0064466F /* Data Management */ = {
+			isa = PBXGroup;
+			children = (
+				CA9B7A3216AA7FD40064466F /* ProductDataSource.h */,
+				CA9B7A3316AA7FD40064466F /* ProductDataSource.m */,
+				CA9B7A3016AA7FC40064466F /* MultLevelCell.h */,
+				CA9B7A3116AA7FC40064466F /* MultLevelCell.m */,
+				CA9B7A1916AA79E20064466F /* DataManager.h */,
+				CA9B7A1C16AA7E4D0064466F /* FoodItem.h */,
+				CA9B7A1D16AA7E4D0064466F /* FoodItem.m */,
+				CA9B7A1A16AA79E20064466F /* DataManager.m */,
+				CA9B7A1F16AA7EF30064466F /* HTTPDataSource.h */,
+				CA9B7A2016AA7EF30064466F /* HTTPDataSource.m */,
+			);
+			name = "Data Management";
+			sourceTree = "<group>";
+		};
+		CAF15F3B16AB702C0022E427 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CAF15F3C16AB70470022E427 /* CalorieModel.h */,
+				CAF15F3D16AB70470022E427 /* CalorieModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA9B79DE16AA74CA0064466F /* Cowrie Counter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA9B7A0616AA74CA0064466F /* Build configuration list for PBXNativeTarget "Cowrie Counter" */;
+			buildPhases = (
+				CA9B79DB16AA74CA0064466F /* Sources */,
+				CA9B79DC16AA74CA0064466F /* Frameworks */,
+				CA9B79DD16AA74CA0064466F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cowrie Counter";
+			productName = "Cowrie Counter";
+			productReference = CA9B79DF16AA74CA0064466F /* Cowrie Counter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA9B79D616AA74CA0064466F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "William Gestrich";
+			};
+			buildConfigurationList = CA9B79D916AA74CA0064466F /* Build configuration list for PBXProject "Cowrie Counter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CA9B79D416AA74CA0064466F;
+			productRefGroup = CA9B79E016AA74CA0064466F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA9B79DE16AA74CA0064466F /* Cowrie Counter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA9B79DD16AA74CA0064466F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA9B79EE16AA74CA0064466F /* InfoPlist.strings in Resources */,
+				CA9B79F616AA74CA0064466F /* Default.png in Resources */,
+				CA9B79F816AA74CA0064466F /* Default@2x.png in Resources */,
+				CA9B79FA16AA74CA0064466F /* Default-568h@2x.png in Resources */,
+				CA9B7A0F16AA75170064466F /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA9B79DB16AA74CA0064466F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF15F8816ABA59E0022E427 /* SimpleGetNetwork.m in Sources */,
+				CAF15F8916ABA59E0022E427 /* PutController.m in Sources */,
+				CAF15F8A16ABA59E0022E427 /* PostController.m in Sources */,
+				CAF15F8B16ABA59E0022E427 /* NetworkManager.m in Sources */,
+				CA9B79F016AA74CA0064466F /* main.m in Sources */,
+				CA9B7A1316AA76E70064466F /* WebsiteViewController.m in Sources */,
+				CA9B7A3416AA802C0064466F /* ProductDataSource.m in Sources */,
+				CA9B7A3516AA802C0064466F /* MultiLevelTableViewController.m in Sources */,
+				CA9B7A3616AA802C0064466F /* MultLevelCell.m in Sources */,
+				CA9B79F416AA74CA0064466F /* AppDelegate.m in Sources */,
+				CA9B7A1B16AA79E20064466F /* DataManager.m in Sources */,
+				CA9B7A1E16AA7E4D0064466F /* FoodItem.m in Sources */,
+				CA9B7A2116AA7EF30064466F /* HTTPDataSource.m in Sources */,
+				CAF15F3516AB1F020022E427 /* SplitContainerController.m in Sources */,
+				CAF15F3E16AB70470022E427 /* CalorieModel.m in Sources */,
+				CAF15F8E16ABACC70022E427 /* NetworkViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CA9B79EC16AA74CA0064466F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA9B79ED16AA74CA0064466F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA9B7A0416AA74CA0064466F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA9B7A0516AA74CA0064466F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA9B7A0716AA74CA0064466F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cowrie Counter/Cowrie Counter-Prefix.pch";
+				INFOPLIST_FILE = "Cowrie Counter/Cowrie Counter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CA9B7A0816AA74CA0064466F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cowrie Counter/Cowrie Counter-Prefix.pch";
+				INFOPLIST_FILE = "Cowrie Counter/Cowrie Counter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA9B79D916AA74CA0064466F /* Build configuration list for PBXProject "Cowrie Counter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA9B7A0416AA74CA0064466F /* Debug */,
+				CA9B7A0516AA74CA0064466F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA9B7A0616AA74CA0064466F /* Build configuration list for PBXNativeTarget "Cowrie Counter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA9B7A0716AA74CA0064466F /* Debug */,
+				CA9B7A0816AA74CA0064466F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA9B79D616AA74CA0064466F /* Project object */;
+}
